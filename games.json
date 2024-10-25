@@ -1,0 +1,267 @@
+{
+    "jumpinghenk": {
+        "name": "Jumping Henk",
+        "cat": "Platformer",
+        "new": "0"
+    },
+    "stonerain": {
+        "name": "Stone rain",
+        "cat": "Dodge",
+        "new": "0"
+    },
+    "hexgl": {
+        "name": "HexGL",
+        "cat": "Racing",
+        "new": "0"
+    },
+    "clumsy-bird": {
+        "name": "Clumsy Bird",
+        "cat": "Arcade",
+        "new": "0"
+    },
+    "holey-io": {
+        "name": "Holey.io",
+        "cat": "IO Game",
+        "new": "0"
+    },
+    "hextris": {
+        "name": "Hextris",
+        "cat": "Puzzle",
+        "new": "0"
+    },
+    "tower-game": {
+        "name": "Tower Game",
+        "cat": "Building",
+        "new": "0"
+    },
+    "infinite-mario": {
+        "name": "Infinite Mario",
+        "cat": "Arcade",
+        "new": "0"
+    },
+    "tetris": {
+        "name": "Tetris",
+        "cat": "Arcade",
+        "new": "0"
+    },
+    "mcm-cars": {
+        "name": "Madalin Cars",
+        "cat": "Racing",
+        "new": "0"
+    },
+    "death-run-3d": {
+        "name": "Death Run 3D",
+        "cat": "Platformer",
+        "new": "0"
+    },
+    "paper-io": {
+        "name": "Paper.IO",
+        "cat": "IO Game",
+        "new": "0"
+    },
+    "helix-jump": {
+        "name": "Helix Jump",
+        "cat": "Platformer",
+        "new": "0"
+    },
+    "run3": {
+        "name": "Run 3",
+        "cat": "Platformer",
+        "new": "0"
+    },
+    "tunnelrush2": {
+        "name": "Tunnel Rush 2",
+        "cat": "Platformer",
+        "new": "0"
+    },
+    "stickman-hook": {
+        "name": "Stickman Hook",
+        "cat": "Stickman",
+        "new": "0"
+    },
+    "stick-merge": {
+        "name": "Stick Merge",
+        "cat": "Stickman",
+        "new": "0"
+    },
+    "monkey-mart": {
+        "name": "Monkey Mart",
+        "cat": "Kids",
+        "new": "0"
+    },
+    "1v1-lol": {
+        "name": "1v1 LOL",
+        "cat": "Battle",
+        "new": "0"
+    },
+    "bitlife": {
+        "name": "Bitlife",
+        "cat": "Puzzle",
+        "new": "0"
+    },
+    "colortunnel": {
+        "name": "Color Tunnel",
+        "cat": "Platformer",
+        "new": "0"
+    },
+    "drive-mad": {
+        "name": "Drive Mad",
+        "cat": "Car",
+        "new": "0"
+    },
+    "hole-io": {
+        "name": "Hole IO",
+        "cat": "IO Game",
+        "new": "0"
+    },
+    "mineclone": {
+        "name": "Mineclone",
+        "cat": "Building",
+        "new": "0"
+    },
+    "retrobowl": {
+        "name": "Retro Bowl",
+        "cat": "Sport",
+        "new": "0"
+    },
+    "rooftop-snipers": {
+        "name": "Rooftop Snipers",
+        "cat": "Battle",
+        "new": "0"
+    },
+    "slither-io": {
+        "name": "Slither IO",
+        "cat": "IO Game",
+        "new": "0"
+    },
+    "slope": {
+        "name": "Slope",
+        "cat": "Platformer",
+        "new": "0"
+    },
+    "venge": {
+        "name": "Venge IO",
+        "cat": "Battle",
+        "new": "0"
+    },
+    "basket-random": {
+        "name": "Basket Random",
+        "cat": "Sport",
+        "new": "0"
+    },
+    "soccer-random": {
+        "name": "Soccer Random",
+        "cat": "Sport",
+        "new": "0"
+    },
+    "3d-bowling": {
+        "name": "3D Bowling",
+        "cat": "Sport",
+        "new": "0"
+    },
+    "adventure-drivers": {
+        "name": "Adventure Drivers",
+        "cat": "Car",
+        "new": "0"
+    },
+    "among-us": {
+        "name": "Among Us",
+        "cat": "Battle",
+        "new": "1"
+    },
+    "awesome-tanks-2": {
+        "name": "Awesome Tanks 2",
+        "cat": "Battle",
+        "new": "1"
+    },
+    "ball-sort-soccer": {
+        "name": "Ball Sort Soccer",
+        "cat": "Kids",
+        "new": "1"
+    },
+    "chicken-merge": {
+        "name": "Chicken Merge",
+        "cat": "Battle",
+        "new": "1"
+    },
+    "crazy-cars": {
+        "name": "Crazy Cars",
+        "cat": "Car",
+        "new": "1"
+    },
+    "crossy-road": {
+        "name": "Crossy Road",
+        "cat": "Kids",
+        "new": "1"
+    },
+    "dino-bros": {
+        "name": "Dino Bros",
+        "cat": "Kids",
+        "new": "1"
+    },
+    "fishing-frenzy": {
+        "name": "Fishing Frenzy",
+        "cat": "Kids",
+        "new": "1"
+    },
+    "football-strike": {
+        "name": "Football Strike",
+        "cat": "Sport",
+        "new": "1"
+    },
+    "hanger": {
+        "name": "Hanger",
+        "cat": "Stickman",
+        "new": "1"
+    },
+    "idle-restaurants": {
+        "name": "Idle Restaurants",
+        "cat": "Kids",
+        "new": "0"
+    },
+    "money-movers": {
+        "name": "Money Movers",
+        "cat": "Battle",
+        "new": "0"
+    },
+    "ninja-cat": {
+        "name": "Ninja Cat",
+        "cat": "Battle",
+        "new": "1"
+    },
+    "parking-fury": {
+        "name": "Parking Fury",
+        "cat": "Car",
+        "new": "1"
+    },
+    "pizza-tower": {
+        "name": "Pizza Tower",
+        "cat": "Kids",
+        "new": "1"
+    },
+    "rabbit-samurai-2": {
+        "name": "Rabbit Samurai 2",
+        "cat": "Kids",
+        "new": "1"
+    },
+    "roper": {
+        "name": "Roper",
+        "cat": "Kids",
+        "new": "1"
+    },
+    "run3-space": {
+        "name": "Run 3 Space",
+        "cat": "Platformer",
+        "new": "1"
+    },
+    "tower-crash-3d": {
+        "name": "Tower Crash 3D",
+        "cat": "Building",
+        "new": "1"
+    },
+    "wordslide": {
+        "name": "Word Slide",
+        "cat": "Puzzle",
+        "new": "1"
+    }
+}

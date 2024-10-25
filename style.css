@@ -1,0 +1,279 @@
+body {
+    background-attachment: fixed;
+    background-color: #ffffff;
+    background-image: url(game-bg.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game-field {
+    margin-top: 80px;
+}
+
+.game {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 10px;
+    width: calc(15% - 6px);
+    aspect-ratio: 1 / 1;
+}
+
+@media (max-width: 768px) {
+    .game {
+        width: calc(30% - 6px);
+        margin: 5px;
+    }
+}
+
+.game img {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.game:hover .button-container {
+    opacity: 1;
+}
+
+.button {
+    background-color: #4287f5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.new-tag {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #f44336;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.high-z {
+    z-index: 1000;
+}
+
+h2 {
+    margin-left: 15px;
+    color: white;
+}
+
+hr {
+    border: 2px solid white;
+    width: 98%;
+}
+
+.header {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    z-index: 999;
+    padding-left: 25px;
+}
+
+.header-push {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #cccccc;
+    padding: 10px;
+    z-index: 999;
+    text-align: center;
+}
+
+.header a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.header a:hover {
+    color: #236aad;
+}
+
+.header .right {
+    float: right;
+    margin-right: 50px;
+}
+
+.result-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+}
+
+.game-result {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 10px;
+    width: calc(15% - 6px);
+    aspect-ratio: 1 / 1;
+}
+
+@media (max-width: 768px) {
+    .game-result {
+        width: calc(20% - 4px);
+        margin: 5px;
+    }
+}
+
+.game-result img {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.button {
+    background-color: #4287f5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.new-tag {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #f44336;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.high-z {
+    z-index: 1000;
+}
+
+.search-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    min-height: 200px;
+}
+
+.search {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0064FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0b4cad;
+}
+
+.search-popup h2 {
+    margin-left: 15px;
+}
+
+.hide-search {
+    position: absolute;
+    right: 10px;
+}
+
+#scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 9999;
+}
+
+#scrollToTopButton.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#scrollToTopButton i {
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header-push.high-z,
+.header.high-z {
+  z-index: 1001;
+}
